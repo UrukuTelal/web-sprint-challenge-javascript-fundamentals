@@ -39,14 +39,30 @@ Edit this document to include your answers after each question. Make sure to lea
 // it returns a single value 
 // takes 2 required params - accumulator (running total) / item (current element being processed in the array)
 // used for sums and products but it could be used for anything 
-// inital value is where to start the equation - if you are adding you will usually use 0, if you are multiplying you will usually use 1
+// initial value is where to start the equation - if you are adding you will usually use 0, if you are multiplying you will usually use 1
+
 2. Explain the difference between a callback and a higher order function.
+
+// Higher Order Functions are functions that RECEIVE callback functions as an argument
+// callback functions are PASSED into higher order functions as an argument
 
 3. Explain what a closure is.
 
+// Closures are the end of a function the '}', "ending curly brackets". 
+
 4. Describe the four principles of the 'this' keyword.
 
+// 1.) global/window binding: do not use causes a crash b/c the reference to the handle is too big to store in memory.
+
+//2.) implicit binding: Whenever a preceding dot calls a function, the object before the dot is 'this'
+
+//3.) New binding: Whenever we use a constructor function, 'this' refers to the specific instance of the object that is created and returned by the constructor function.
+
+//4.)Explicit binding: Whenever we use JavaScript's call or apply method, this is explicitly defined.
+
 5. Why do we need super() in an extended class?
+
+//to provide permission for the child class to access the parent's values and methods
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
