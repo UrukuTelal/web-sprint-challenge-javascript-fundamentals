@@ -26,6 +26,20 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Explain the differences between `.map`, `.reduce` and `.filter` and describe a use case for each. 
 
+//.map()
+// automatically returns a new array 
+// requires a return statement - what comes after this return statement is included in the new array 
+// converting data 
+
+//.filter()
+// returns a new array 
+// the return is looking for something that could be true or false - if it's true it's included in the new array. If it's false its not included
+
+//.reduce()
+// it returns a single value 
+// takes 2 required params - accumulator (running total) / item (current element being processed in the array)
+// used for sums and products but it could be used for anything 
+// inital value is where to start the equation - if you are adding you will usually use 0, if you are multiplying you will usually use 1
 2. Explain the difference between a callback and a higher order function.
 
 3. Explain what a closure is.
